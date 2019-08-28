@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20190828162716) do
     t.string   "name"
     t.integer  "family_id"
     t.integer  "universe_id"
+    t.integer  "power"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
