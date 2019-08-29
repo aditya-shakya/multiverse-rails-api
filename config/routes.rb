@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'unbalanced_families' => 'family#unbalanced_families'
   post 'family/balance' => 'family#balance_family'
 
+  get 'people/index' => 'person#index'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
