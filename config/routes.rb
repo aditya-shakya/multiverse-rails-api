@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   get 'universe/:id/families' => 'universe#families'
   get 'unbalanced_families' => 'family#unbalanced_families'
+  post 'family/balance' => 'family#balance_family'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
