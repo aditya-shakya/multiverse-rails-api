@@ -17,7 +17,7 @@
     - GET '/unbalanced_families'
 - balance a family
     - POST '/family/balance'
-    - params => {"id" : 1}
+    - params => {"id" : family_id}
     
     
 # see this PR for main changes
