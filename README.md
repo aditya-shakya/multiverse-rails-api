@@ -18,3 +18,7 @@
 - balance a family
     - POST '/family/balance'
     - params => {"id" : 1}
+    
+    
+# see this PR for main changes
+  - https://github.com/aditya-shakya/multiverse-rails-api/pull/1
