@@ -4,6 +4,11 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  get 'universe/:id/families' => 'universe#families'
+  get 'unbalanced_families' => 'family#unbalanced_families'
+  post 'family/balance' => 'family#balance_family'
+
+  get 'people/index' => 'person#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
