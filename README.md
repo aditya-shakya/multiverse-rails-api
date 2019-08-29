@@ -9,7 +9,8 @@
 
 
 # API specs
-
+- get all people and there family, univers
+  - GET 'people/index'
 - get families api
     - GET '/universe/:id/families'
 - get unbalanced families
